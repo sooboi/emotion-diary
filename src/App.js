@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 import Edit from "./pages/Edit";
 import New from "./pages/New";
 import Diary from "./pages/Diary";
-import { act } from "react-dom/test-utils";
 
 const reducer = (state, action) => {
   let newState = [];
@@ -20,7 +19,7 @@ const reducer = (state, action) => {
       //   ...action.data,
       // };
       // newState = [newItem, ...state];
-      newState = [...action.data, ...state];
+      newState = [action.data, ...state];
       break;
     }
     case "REMOVE": {
