@@ -1,14 +1,6 @@
 /* 폰트 */
 
 @font-face {
-  font-family: "PyeongChangPeace-Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
-    format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "BMYEONSUNG";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff")
     format("woff");
@@ -36,7 +28,7 @@ body {
   min-height: 100vh;
   margin: 0px;
 
-  font-family: "PyeongChangPeace-Bold", cursive;
+  font-family: "SUITE-Regular";
 }
 
 @media (min-width: 650px) {
