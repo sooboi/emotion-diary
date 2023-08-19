@@ -16,6 +16,7 @@ const Diary = () => {
 
   useEffect(() => {
     const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `오늘의 일기 - ${id}번 일기`;
   }, []);
 
   useEffect(() => {
