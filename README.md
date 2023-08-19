@@ -17,8 +17,3 @@
 + 로컬 스토리지를 이용한 일기 데이터 유지
 
 ***
-
-###  🗂 Structure :
-<img width="169" alt="image" src="https://github.com/sooboi/emotion-diary/assets/103011139/df77dba4-f7e4-4da0-9165-27f618abbe6c">
-
-***
