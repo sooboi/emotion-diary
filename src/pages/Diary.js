@@ -34,7 +34,6 @@ const Diary = () => {
     const curEmotionData = emotionList.find(
       (it) => parseInt(it.emotion_id) === parseInt(data.emotion)
     );
-    console.log(curEmotionData);
 
     return (
       <div className="DiaryPage">
@@ -75,13 +74,6 @@ const Diary = () => {
       </div>
     );
   }
-
-  return (
-    <div>
-      <h1>Diary</h1>
-      <p>상세</p>
-    </div>
-  );
 };
 
 export default Diary;
